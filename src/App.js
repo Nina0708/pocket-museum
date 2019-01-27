@@ -12,6 +12,7 @@ import Detail from './Detail';
 import Map from './Map';
 import Nav from './Nav';
 import Panel from './Panel';
+import { _fetch } from './Util';
 
 const drawerWidth = 300;
 
@@ -55,7 +56,7 @@ class App extends React.Component {
         Object.keys(params).forEach((key) => url.searchParams.append(key, params[key]));
 
         try {
-            const data = await fetch(url).then((r) => r.json());
+            const data = await _fetch(fetch(url).then((r) => r.json()), 1000);
             this.setState({ museumDetailData: data });
         } catch (error) {
             // show error message when ajax call failed
