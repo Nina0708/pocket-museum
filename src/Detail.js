@@ -29,9 +29,6 @@ const Detail = (props) => {
 		<Dialog aria-labelledby="museum details" open={showMuseumDetail}>
 			<DialogTitle>
 				{museum ? museum.name : 'Select a museum first'}
-				<IconButton aria-label="Close" className={classes.closeButton} onClick={closeDetail}>
-					<CloseIcon />
-				</IconButton>
 			</DialogTitle>
 			<DialogContent>
 				{museum ? (
@@ -57,6 +54,7 @@ const Detail = (props) => {
 				</Typography>
 			</DialogContent>
 			<DialogActions>
+				<Button onClick={closeDetail}>Close</Button>
 				<Button href={museumDetailData[3][0]}>Learn More</Button>
 			</DialogActions>
 		</Dialog>

@@ -79,7 +79,7 @@ const googleMap = {
 		lat: 40.7826996,
 		lng: -73.9682502
 	},
-	zoom: 14
+	zoom: 13
 };
 
 const wikiPedia = {
