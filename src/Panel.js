@@ -16,7 +16,8 @@ const styles = (theme) => ({
     textField: {
         marginLeft: theme.spacing.unit,
         marginRight: theme.spacing.unit,
-        width: 260
+        width: 260,
+        height: 56
     },
     drawer: {
         width: drawerWidth,

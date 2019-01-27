@@ -28,7 +28,7 @@ const Detail = (props) => {
             <DialogContent>
                 {museum ? (
                     <IdealImage
-                        placeholder={{ color: '#666' }}
+                        placeholder={{ color: museum.image.placeholder}}
                         className={classes.media}
                         srcSet={[
                             { src: museum.image.small, width: 400 },

@@ -6,7 +6,8 @@ const museums = [
             medium: './images/american-museum-of-natural-history-600.jpg',
             large: './images/american-museum-of-natural-history-800.jpg',
             width: 524,
-            height: 414
+            height: 414,
+            placeholder: '#665025'
         },
         location: {
             lat: 40.7813281,
@@ -20,7 +21,8 @@ const museums = [
             medium: './images/metropolitan-museum-of-art-600.jpg',
             large: './images/metropolitan-museum-of-art-800.jpg',
             width: 552,
-            height: 368
+            height: 368,
+            placeholder: '#858587'
         },
         location: {
             lat: 40.7794406,
@@ -34,7 +36,8 @@ const museums = [
             medium: './images/the-museum-of-modern-art-600.jpg',
             large: './images/the-museum-of-modern-art-800.jpg',
             width: 552,
-            height: 414
+            height: 414,
+            placeholder: '#8a7269'
         },
         location: {
             lat: 40.7614367,
@@ -48,7 +51,8 @@ const museums = [
             medium: './images/solomon-r-guggenheim-museum-600.jpg',
             large: './images/solomon-r-guggenheim-museum-800.jpg',
             width: 552,
-            height: 414
+            height: 414,
+            placeholder: '#918d82'
         },
         location: {
             lat: 40.7829836,
@@ -62,7 +66,8 @@ const museums = [
             medium: './images/museum-of-the-city-of-new-york-600.jpg',
             large: './images/museum-of-the-city-of-new-york-800.jpg',
             width: 537,
-            height: 584
+            height: 584,
+            placeholder: '#a59f98'
         },
         location: {
             lat: 40.792498,
